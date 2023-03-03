@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -13,11 +13,21 @@ header {
 
 .logo {
     align-items: center;
-    margin-left: 40px;
+    margin-left: 20px;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.823);
+    border-color: black;
+    border: solid 2px;
+    width: min-content;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .logo a {
-    color: aliceblue;
+    color: black;
     text-decoration: none;
 }
 
@@ -44,11 +54,10 @@ header {
 }
 
 .section1 {
-    background-color: rgba(239, 199, 199, 0.419);
     width: 100%;
-    height: 300px;
+    height: 90vh;
     display: flex;
-    margin: auto;
+    align-items: center;
 
 }
 
@@ -61,22 +70,25 @@ div {
 
 .missao {
     background-color: green;
+    text-align: center;
 }
 
 .visao {
     background-color: aqua;
+    text-align: center;
 }
 
 .valores {
     background-color: orange;
+    text-align: center;
 }
 
 footer {
     background-color: gray;
     width: 100%;
     height: 60px;
-    bottom: 0;
     position: fixed;
+    bottom: 0;
     bottom: 0;
     left: 0;
 }
