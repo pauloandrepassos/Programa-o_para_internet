@@ -76,6 +76,9 @@ div {
     margin: auto;
     border-radius: 10%;
 }
+div p {
+    margin-top: 10px;
+}
 
 .missao {
     background-color: green;
