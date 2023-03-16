@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: rgb(3, 54, 3);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    max-height: 80%;
+    border-radius: 50%;
+    margin: 0 3%;
+}
+
+.name {
+    margin-right: 3%;
+}
+
+section {
+
+}
+
+.titleh2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.atividades {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 1rem;
+    background-color: rgb(210, 255, 255);
+    width: 300px;
+}
+
+@media(max-width: 768px) {
+    .container {
+        justify-content: center;
+    }
+
+}
+
+.imagens {
+    max-width: 100%;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.links ul {
+    list-style: none;
+    width: 100%;
+}
+
+.links ul li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
