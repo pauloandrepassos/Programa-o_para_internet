@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <form action="index.html">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+        <label for="data">Data de nascimento: </label>
+        <input type="date" id="data" name="data">
+
+        <label for="sexo">Qual seu sexo: </label>
+        <select name="sexo" id="sexo" name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+
+        <label for="cep">Informe seu CEP:</label>
+        <input type="text" id="cep" name="cep" placeholder="Digite seu CEP" pattern="[0-9]{5}-[0-9]{3}" required>
+
+        <label for="logradouro">Logradouro:</label>
+        <input type="text" id="logradouro" name="logradouro" placeholder="Digite o logradouro">
+
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" placeholder="Digite o numero">
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" placeholder="Digite o nome bairro">
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Digite o nome da cidade">
+
+        <label for="estado">Estado:</label>
+        <input type="text" name="estado" id="estado" placeholder="Digite o nome do estado">
+
+        <label for="senha">Crie uma senha: </label>
+        <input type="password" id="senha" name="senha" placeholder="Digite uma senha">
+
+        <label for="confirmar_senha">Confirme sua senha:</label>
+        <input type="password" id="confirmar_senha" name="confirmar_senha" placeholder="Confirme sua senha">
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
