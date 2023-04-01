@@ -1,11 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(to right, #03252a, #22434b, #03252a);
+    color: white;
 }
 
 .cabecalho {
-    background-color: rgb(3, 54, 3);
-    height: 60px;
+    height: 80px;
     display: flex;
     align-items: center;
     color: white;
@@ -23,7 +24,7 @@ body {
 }
 
 section {
-
+    
 }
 
 .titleh2 {
@@ -44,8 +45,12 @@ section {
     padding: 10px;
     margin: 10px;
     border-radius: 1rem;
-    background-color: rgb(210, 255, 255);
+    background-color: #123842;
     width: 300px;
+}
+
+.atividades:hover {
+    transform: scale(1.1);
 }
 
 @media(max-width: 768px) {
@@ -82,4 +87,13 @@ section {
 
 .links a:hover {
     text-decoration: underline;
+}
+
+button {
+    border-radius: 5px;
+    border: none0;
+}
+
+button:hover {
+    transform: scale(1.3);
 }
