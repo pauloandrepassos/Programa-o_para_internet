@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <form action="index.html">
@@ -27,7 +28,7 @@
         <label for="cep">Informe seu CEP:</label>
         <input type="text" id="cep" name="cep" placeholder="Digite seu CEP" pattern="[0-9]{5}-[0-9]{3}" required>
 
-        <label for="logradouro">Logradouro:</label>
+        <label for="rua">Logradouro:</label>
         <input type="text" id="logradouro" name="logradouro" placeholder="Digite o logradouro">
 
         <label for="numero">Número:</label>
@@ -51,5 +52,7 @@
         <button type="submit">Enviar</button>
         <button type="reset">Limpar</button>
     </form>
+
+    <script src="script.js"></script>
 </body>
 </html>
